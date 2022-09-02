@@ -14,8 +14,7 @@ from detectron2.engine import DefaultPredictor
 from detectron2.structures import boxes
 
 # Add Detic and CenterNet2 paths to python path
-sys.path.insert(0, "Detic/")
-sys.path.insert(0, "Detic/third_party/CenterNet2/")
+sys.path.insert(0, "third_party/CenterNet2/")
 from centernet.config import add_centernet_config
 from detic.config import add_detic_config
 from detic.modeling.text.text_encoder import CLIPTEXT
